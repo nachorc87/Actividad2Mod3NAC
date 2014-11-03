@@ -1,0 +1,13 @@
+def nro=10000
+def contador=0
+def sumatoria=0
+def prom
+while (nro != 0)
+{
+nro=System.console().readLine("Número (cero fin): ").toInteger()
+contador=contador+1
+sumatoria=sumatoria+nro
+}
+contador=contador-1
+prom=sumatoria/contador
+println "Se ingresaron "+contador+" nros. La suma es "+sumatoria+" y el promedio es "+prom
