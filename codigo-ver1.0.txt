@@ -4,10 +4,11 @@ def sumatoria=0
 def prom
 while (nro != 0)
 {
-nro=System.console().readLine("Número (cero fin): ").toInteger()
+nro=System.console().readLine("NÃºmero (cero fin): ").toInteger()
 contador=contador+1
 sumatoria=sumatoria+nro
 }
 contador=contador-1
 prom=sumatoria/contador
 println "Se ingresaron "+contador+" nros. La suma es "+sumatoria+" y el promedio es "+prom
+println "Modifico codigo"
